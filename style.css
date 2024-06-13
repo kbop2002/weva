@@ -1,0 +1,51 @@
+
+.carousel-container {
+    width: 100%;
+    overflow-x: auto; /* Change overflow property to auto for horizontal scrolling */
+    white-space: nowrap;
+    display: flex; /* Use flexbox for better layout */
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    min-width: 250px;
+    flex: 0 0 auto; /* Don't allow cards to grow, shrink, or wrap */
+    justify-content: center;
+    background-color:rgb(15, 78, 120);
+    border: none;
+    box-shadow: 10px 5px 5px;
+}
+.card img {
+    width: 64px;
+    height: 64px;
+}#title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+body{
+    display: grid;
+    justify-content: center;
+}
+#Search{
+    margin-top: 20px;
+    width: 200px;
+    justify-self: center;
+    height: 30px;
+}
+button{
+    height: 30px;
+    width: 150px;
+    border-radius: 100px;
+    border: none;
+}
+#nav_bar{
+    justify-self: center;
+
+}
+body{
+    background-color: rgb(2, 15, 77);
+}
